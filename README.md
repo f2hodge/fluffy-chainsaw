@@ -2,7 +2,9 @@
 
 HTML, CSS, JavaScript crashes
 
+<!--  -->
 <!-- HTML Cheat Sheet -->
+<!--  -->
 
 What is HTML? :
 
@@ -49,3 +51,13 @@ Example:
 - Provide Information about an element
 - Placed within the start tag
 - Key/value pairs (id="someId")
+
+HTML5 Semantic Tags:
+
+<!-- A semantic element clearly describes its meaning to both the browser and the developer -->
+
+- header, footer, aside, main, article, nav, section, details
+
+<!--  -->
+<!-- CSS Cheat Sheet -->
+<!--  -->

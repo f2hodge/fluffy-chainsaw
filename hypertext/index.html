@@ -6,6 +6,8 @@
     <title>HTML Cheat Sheet</title>
 </head>
 <body>
+    <!-- Navigation A-tag for link within site -->
+    <a href="blog.html">Go to blog</a>
     <!-- Headings -->
     <h1>Heading One</h1>
     <h2>Heading Two</h2>
@@ -62,5 +64,83 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- Line Break -->
+    <br>
+    <!-- Horizontal Rule -->
+    <hr>
+    <br>
+
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+        <div>
+            <!-- Text Inputs -->
+            <label for="">First Name</label>
+            <input type="text" name="firstName" placeholder="Enter first name">
+        </div> <!-- These div elements force the inputs onto separate lines -->
+        <br>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" name="lastName">
+        </div>
+        <br>
+        <div>
+            <!-- Email Input (validates) -->
+            <label for="">Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <!-- Select List Input (option dropdown) -->
+            <label for="">Gender</label>
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- Text Area Input -->
+            <label for="">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <!-- Number Input -->
+            <label for="">Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <!-- Date Input -->
+            <label for="">Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <!-- Submit Button (input type) -->
+        <input type="submit" name="submit" value="submit">
+    </form>
+
+    <!-- Button (outside form) -->
+    <button>Click Me</button> <!-- Would have to add an Event attribute tied to some JavaScript for functionality -->
+
+    <br>
+    <!-- Images -->
+    <a href="https://www.linkedin.com/in/ryan-hodge-05888719/" target="_blank">
+        <img src="img/RyanHodgeHeadshot_BnW.jpeg" alt="My Sample Image" width="200">
+    </a>
+
+    <!-- Quotations -->
+    <!-- Block Quotes are a block of text and take a cite attribute for source -->
+    <blockquote cite="sitehound.us">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquam ducimus accusantium ea. Quis nisi doloremque aut ipsam obcaecati, consequatur laboriosam error laudantium? Molestias iusto laudantium rerum dolores. Ipsam sapiente beatae recusandae quasi ex voluptates aperiam ipsa quas praesentium, sunt cumque, nemo nisi aliquam autem mollitia amet officiis! Pariatur, placeat!
+    </blockquote>
+
+    <!-- Abbreviation Quotes will show that a bit of text is abbreviated from another full name -->
+    <p>The <abbr title="World Wide Web">WWW</abbr> is an amazing technological advancement allowing people access to a wealth of <abbr title="information">info</abbr></p>
+
+    <!-- Citation Quote tag -->
+    <p><cite>HTML crash course</cite>, by Brad Traversy</p>
 </body>
 </html>
