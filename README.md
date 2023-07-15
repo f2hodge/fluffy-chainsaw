@@ -61,3 +61,25 @@ HTML5 Semantic Tags:
 <!--  -->
 <!-- CSS Cheat Sheet -->
 <!--  -->
+
+What is CSS? :
+
+- NOT a programming language
+- Stylesheet/Styling language
+- Used for website layout and design
+- Can be extended with Sass or Less
+
+3 Methods for Adding CSS:
+
+- Inline CSS: Directly in the html element (NO!)
+- Internal CSS: Using style tags within a single document
+- External CSS: Linking an external .css file (BEST!)
+
+Margin, Border, Padding, Box-model:
+
+- The order from internal to external is -> Element, Padding, Border, Margin
+- The Border is the exterior edge of the element content
+- Long declaration involves saying things like "margin-top, margin-bottom"
+- Shorthand declaration is "margin: top, right, bottom, left"
+  - or if opposing sides are the same "margin: top-bottom, right-left"
+  - or if they're all equal "margin: all"

@@ -1,0 +1,23 @@
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* Alternative (faster) way to do this, but not as explicit */
+    /* font: normal 16px Arial, Helvetica, sans-serif; */
+
+    line-height: 1.6em; /* "em" is a responsive way to create line-height other than pixels */
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 {
+    background-color: #333;
+    color: #fff;
+}
