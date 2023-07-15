@@ -194,3 +194,23 @@ a:visited {
     position: fixed;
     top: 400px;
 }
+
+/* Pseudoclass Demonstration "selector: pseudoclass */
+.my-list li:first-child {
+    background: red; /* don't have to use background-color if want variability */
+}
+
+.my-list li:last-child {
+    background: blue;
+    color: #fff;
+}
+
+/* Selecting a specific list item */
+.my-list li:nth-child(5) {
+    background: yellow;
+}
+
+/* Selecting a subset with directive */
+.my-list li:nth-child(even) {
+    color: chocolate;
+}
