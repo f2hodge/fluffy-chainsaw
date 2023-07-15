@@ -35,3 +35,17 @@ Inline vs. Block Level Elements:
   - Take the full width available
 - Block Level: div, h1 - h6, p, form
 - Inline Level: span, img, a
+
+Tag Attributes:
+
+<!--
+Sample:
+<tagname attrubuteName="attrubuteValue">content</tagname>
+Example:
+<h1 title="My Company">About Us</h1>
+ -->
+
+- All tags can have attributes
+- Provide Information about an element
+- Placed within the start tag
+- Key/value pairs (id="someId")
