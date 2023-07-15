@@ -104,3 +104,39 @@ Positioning in CSS:
 - Fixed: Always in the same position to browser window, regardless of scrolling
 - Initial: Sets property to its default value
 - Inherit: Takes property from its parent element value
+
+<!--  -->
+<!-- JavaScript Cheat Sheet -->
+<!--  -->
+
+What is JavaScript? :
+
+- High-level, interpreted programming language
+- Conforms to ECMAScript specification
+- Multi-paradigm
+- Runs on the client/browser as well as on the server(Node.js)
+- The programming language of the browser (most wide-spread language today)
+- Build interactive user interfaces with frameworks like React
+- Used in building very fast server-side and full-stack applications
+- Used in mobile development (React Native, NativeScript, Iconic)
+- Used in desktop application development (Electron JS)
+
+Course Content:
+
+- Variables and Data Types
+- Arrays
+- Object Literals
+- Methods for string, array, objects, etc.
+- Looping: for, while, for..of, forEach, map
+- Conditionals (if, ternary, and switch)
+- Functions (Normal & Arrow)
+- OOP (prototypes and classes)
+- DOM Selection
+- DOM Manipulation
+- Events
+- Basic Form Validation
+
+2 Methods of adding JS into webpage:
+
+- Directly into the markup with script tags <!-- <script>alert("hello world");</script> -->
+- Create .js files and reference into .html files with Script tags and Source(src) properties
