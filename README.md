@@ -75,11 +75,32 @@ What is CSS? :
 - Internal CSS: Using style tags within a single document
 - External CSS: Linking an external .css file (BEST!)
 
+CSS Selectors:
+
+- "a { background-color: yellow; }
+- selector { property: value; }
+
+Colors in CSS:
+
+- Color names like "red, green, etc" or HTML5 color names like "coral, cornsilk, etc"
+- Hexadecimal names like "#fff, #00ff00, etc"
+- RGB (red, green, blue) values as amount of each, like "rgb(0,0,255)" for blue
+
 Margin, Border, Padding, Box-model:
 
 - The order from internal to external is -> Element, Padding, Border, Margin
 - The Border is the exterior edge of the element content
 - Long declaration involves saying things like "margin-top, margin-bottom"
-- Shorthand declaration is "margin: top, right, bottom, left"
-  - or if opposing sides are the same "margin: top-bottom, right-left"
+- Shorthand declaration for size only is "margin: top right bottom left"
+  - or if opposing sides are the same "margin: top-bottom right-left"
   - or if they're all equal "margin: all"
+- Shorthand declaration general is "margin: size color style"
+
+Positioning in CSS:
+
+- Static: Default, rendering in order of the markup document flow
+- Relative: Positioning relative to element's normal position, pushing (top, left, etc) value
+- Absolute: Target position we want inside a relative element reference
+- Fixed: Always in the same position to browser window, regardless of scrolling
+- Initial: Sets property to its default value
+- Inherit: Takes property from its parent element value

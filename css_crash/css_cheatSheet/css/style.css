@@ -1,3 +1,12 @@
+/* In-general put the more global classes at the top and more specific lower in sheet */
+
+/* If you want to do a reset, zeroing out the pre-formatting, use this  */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* These styles apply globally for body tags */
 body {
     background-color: #f4f4f4;
     color: #555555;
@@ -12,12 +21,176 @@ body {
     margin: 0;
 }
 
+/* Selector for Links */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* State-related Selector: hover for when mouse-over */
+a:hover {
+    color: red;
+}
+
+/* State-related Selector: for when the link is being used */
+a:active {
+    color: green;
+}
+
+/* State-related Selector: for when the link has been used in State memory */
+a:visited {
+    color: purple;
+}
+
+/* Selector and styles for all .container classes */
 .container {
     width: 80%;
     margin: auto;
 }
 
+/* This is a selector for a button class, not button tag */
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background: red;
+    color: #fff;
+}
+
+/* Clearing for float property styling, so different layout doesn't bleed over */
+.clr {
+    clear: both;
+}
+
 .box-1 {
     background-color: #333;
     color: #fff;
+
+    border: 5px red solid;
+
+    padding: 20px;
+
+    margin: 20px 0;
+}
+
+/* Selector for h1 tags only inside the .box-1 class */
+.box-1 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Selector for h2 tags just inside .categories classes */
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../img/check2.png');
+}
+
+.my-form {
+    padding: 20px;
+}
+
+/* Selector for .form-group classes inside .my-form classes */
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+/* Selector for input tags of type="text" and textarea tags inside .my-form classes */
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Demonstration of Position property: Static, Relative, and Absolute values */
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    color: #000;
+    position: relative;
+    /* Demonstrate Background Image use */
+    background-image: url('../img/background5.jpg');
+
+    background-repeat: no-repeat;
+    background-position: 100px 200px; /* position 100px horizontal, 200px vertical*/
+    background-position: center top; /* position center horizontal, top vertical*/
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+/* Demonstration of Position property: Fixed values */
+.fix-me {
+    position: fixed;
+    top: 400px;
 }
