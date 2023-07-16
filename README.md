@@ -164,5 +164,10 @@ Example:
   - can still be modified as a const, just not reassigned to a new array
 
 Objects and Object Literals:
+- can use the original ES5 or earlier version and methods declared outside constructor
+- can use classes for syntactic sugar and more elegant code design
 
--
+
+<!--  -->
+<!-- DOM Selection -->
+<!--  -->

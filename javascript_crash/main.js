@@ -50,6 +50,7 @@ class Persona {
     this.dob = new Date(dob);
   }
 
+  // This is the syntactic sugar where this is placed within the class but appears in prototype
   getBirthYear() {
     return this.dob.getFullYear();
   };
